@@ -10,7 +10,7 @@ summary_df = summary_df.rename(columns = {'title' :'count'}).reset_index()
 
 summary_df = summary_df.sort_values('count',ascending=False)
 
-summary_df.to_csv('data/reviews-per-country_csv',index=False)
+summary_df.to_csv('data/reviews-per-country.csv',index=False)
 
 
 
